@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="portfolio website for Ravi Ranjan Kumar, a front-end developer creating elegant, responsive, high-performing digital experiences."
+    />
+    <meta
+      name="keywords"
+      content="portfolio, front-end developer, web developer, UI designer, JavaScript, responsive website"
+    />
+    <meta name="author" content="Ravi Ranjan Kumar" />
+    <meta name="theme-color" content="#0d1117" />
+    <meta property="og:title" content="Ravi Ranjan Kumar | Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore projects, skills, certificates, and contact details for Ravi Ranjan Kumar."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    />
+    <title>Ravi Ranjan Kumar | Portfolio</title>
+    <link rel="canonical" href="https://example.com/" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ravi Ranjan Kumar",
+        "jobTitle": "Computer Science Student",
+        "url": "https://yourdomain.com",
+        "sameAs": [
+          "https://github.com/raviranjan9601",
+          "https://www.linkedin.com/in/raviranjan9601/"
+        ],
+        "knowsAbout": [
+          "C",
+          "Python",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Git",
+          "GitHub"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="logo" href="#top" aria-label="Ravi Ranjan Kumar home"
+          ><span>Ravi</span>Ranjan</a
+        >
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Toggle dark and light mode"
+        >
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero section" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-content glass-panel">
+            <p class="eyebrow">Available for premium web projects</p>
+            <h1 id="hero-title">
+              Hi, I'm Ravi Ranjan Kumar.<span class="typing-line"
+                >I build <span id="typing-text"></span
+              ></span>
+            </h1>
+            <p class="hero-copy">
+              A front-end developer focused on polished interfaces, responsive
+              experiences, and performance-minded websites that feel as good as
+              they look.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects"
+                ><i class="fa-solid fa-layer-group"></i>View Work</a
+              >
+              <button class="btn secondary" id="resumeBtn" type="button">
+                <i class="fa-solid fa-file-arrow-down"></i>Download Resume
+              </button>
+            </div>
+            <div class="hero-stats" aria-label="Portfolio highlights">
+              <div><strong>24+</strong><span>Projects</span></div>
+              <div><strong>5+</strong><span>Years</span></div>
+              <div><strong>98%</strong><span>Client Rating</span></div>
+            </div>
+          </div>
+          <!-- <aside class="profile-card glass-panel" aria-label="Profile summary">
+            <div class="profile-orbit"></div>
+            <div class="avatar"><i class="fa-solid fa-code"></i></div>
+            <h2>Front-End Developer</h2>
+            <p>
+              Design systems, animated UI, accessible layouts, and clean
+              JavaScript.
+            </p>
+            <div class="socials" aria-label="Social media links">
+              <a
+                href="https://github.com/raviranjan9601"
+                aria-label="GitHub profile"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://linkedin.com/in/raviranjan9601"
+                aria-label="LinkedIn profile"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://instagram.com/raviranjan.9601"
+                aria-label="Instagram profile"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="mailto:raviranjan9601@gmail.com" aria-label="Email Ravi"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </aside> -->
+        </div>
+      </section>
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="container split-section">
+          <div>
+            <p class="section-kicker">About</p>
+            <h2 id="about-title">
+              Creating thoughtful digital products with style and precision.
+            </h2>
+          </div>
+          <div class="glass-panel prose">
+            <p>
+              I craft modern web experiences for founders, agencies, and teams
+              who care about visual quality, usability, and dependable
+              execution. My work combines clean front-end architecture with a
+              sharp eye for interaction detail.
+            </p>
+            <p>
+              From landing pages to product dashboards, I turn ideas into fast,
+              responsive, accessible interfaces built with HTML, CSS, and
+              JavaScript.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Skills</p>
+            <h2 id="skills-title">Technical strengths</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card glass-panel">
+              <div class="skill-top">
+                <span><i class="fa-brands fa-html5"></i>HTML5</span
+                ><strong>95%</strong>
+              </div>
+              <div class="progress"><span style="--level: 95%"></span></div>
+            </article>
+            <article class="skill-card glass-panel">
+              <div class="skill-top">
+                <span><i class="fa-brands fa-css3-alt"></i>CSS3</span
+                ><strong>92%</strong>
+              </div>
+              <div class="progress"><span style="--level: 92%"></span></div>
+            </article>
+            <article class="skill-card glass-panel">
+              <div class="skill-top">
+                <span><i class="fa-brands fa-js"></i>JavaScript</span
+                ><strong>88%</strong>
+              </div>
+              <div class="progress"><span style="--level: 88%"></span></div>
+            </article>
+            <article class="skill-card glass-panel">
+              <div class="skill-top">
+                <span
+                  ><i class="fa-solid fa-mobile-screen"></i>Responsive UI</span
+                ><strong>94%</strong>
+              </div>
+              <div class="progress"><span style="--level: 94%"></span></div>
+            </article>
+            <article class="skill-card glass-panel">
+              <div class="skill-top">
+                <span><i class="fa-solid fa-gauge-high"></i>Performance</span
+                ><strong>86%</strong>
+              </div>
+              <div class="progress"><span style="--level: 86%"></span></div>
+            </article>
+            <article class="skill-card glass-panel">
+              <div class="skill-top">
+                <span
+                  ><i class="fa-solid fa-universal-access"></i
+                  >Accessibility</span
+                ><strong>84%</strong>
+              </div>
+              <div class="progress"><span style="--level: 84%"></span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section projects"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Projects</p>
+            <h2 id="projects-title">Selected work</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card glass-panel">
+              <div class="project-icon">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <h3>Insight Analytics</h3>
+              <p>
+                A responsive SaaS dashboard with real-time cards, animated
+                charts, and refined data states.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="#contact"
+                >Discuss Project <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+            <article class="project-card glass-panel">
+              <div class="project-icon"><i class="fa-solid fa-store"></i></div>
+              <h3>Nova Commerce</h3>
+              <p>
+                A premium storefront concept with product filtering, polished
+                cards, and mobile-first checkout UI.
+              </p>
+              <div class="tags">
+                <span>UI</span><span>Responsive</span><span>SEO</span>
+              </div>
+              <a href="#contact"
+                >Discuss Project <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+            <article class="project-card glass-panel">
+              <div class="project-icon">
+                <i class="fa-solid fa-calendar-check"></i>
+              </div>
+              <h3>Studio Planner</h3>
+              <p>
+                A clean productivity interface with task boards, calendar
+                previews, and smooth micro-interactions.
+              </p>
+              <div class="tags">
+                <span>UX</span><span>Animation</span><span>CSS</span>
+              </div>
+              <a href="#contact"
+                >Discuss Project <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section"
+        id="certificates"
+        aria-labelledby="certificates-title"
+      >
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Certificates</p>
+            <h2 id="certificates-title">Credentials and learning</h2>
+          </div>
+          <div class="certificate-list">
+            <article class="certificate-item glass-panel">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <h3>Advanced Responsive Web Design</h3>
+                <p>
+                  Modern layout systems, accessibility foundations, and
+                  device-first design.
+                </p>
+              </div>
+              <span>2026</span>
+            </article>
+            <article class="certificate-item glass-panel">
+              <i class="fa-solid fa-certificate"></i>
+              <div>
+                <h3>JavaScript Algorithms and UI Patterns</h3>
+                <p>
+                  Interactive components, clean state handling, and browser
+                  performance.
+                </p>
+              </div>
+              <span>2025</span>
+            </article>
+            <article class="certificate-item glass-panel">
+              <i class="fa-solid fa-shield-halved"></i>
+              <div>
+                <h3>Web Accessibility Essentials</h3>
+                <p>
+                  Semantic HTML, keyboard support, readable contrast, and
+                  inclusive interfaces.
+                </p>
+              </div>
+              <span>2025</span>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section contact"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="container contact-grid">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2 id="contact-title">
+              Let's build something polished and useful.
+            </h2>
+            <p class="contact-copy">
+              Send a message for collaborations, freelance work, or a quick
+              portfolio review.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:hello@example.com"
+                ><i class="fa-solid fa-envelope"></i>hello@example.com</a
+              ><a href="tel:+10000000000"
+                ><i class="fa-solid fa-phone"></i>+1 000 000 0000</a
+              >
+            </div>
+          </div>
+          <form class="contact-form glass-panel" id="contactForm">
+            <label for="name">Name</label
+            ><input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Your name"
+              required
+            /><label for="email">Email</label
+            ><input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              required
+            /><label for="message">Message</label
+            ><textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell me about your project"
+              required
+            ></textarea
+            ><button class="btn primary" type="submit">
+              <i class="fa-solid fa-paper-plane"></i>Send Message
+            </button>
+            <p
+              class="form-status"
+              id="formStatus"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>&copy; <span id="year"></span> Ravi Kumar. All rights reserved.</p>
+        <div class="socials" aria-label="Footer social links">
+          <a href="https://github.com/" aria-label="GitHub profile"
+            ><i class="fa-brands fa-github"></i></a
+          ><a href="https://linkedin.com/" aria-label="LinkedIn profile"
+            ><i class="fa-brands fa-linkedin-in"></i></a
+          ><a href="https://instagram.com/" aria-label="Instagram profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
